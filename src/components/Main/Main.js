@@ -7,10 +7,10 @@ import Photos from '../Photos/Photos';
 export default function Main(){
     return (
         <Routes>
-            <Route path="contacts" element={<Contacts />} />
-            <Route path="posts" element={<Posts />} />
-            <Route path="photos" element={<Photos />} />
-            <Route path="/" exact element={<Home />} />
+            <Route path="reactjs-routing/contacts" element={<Contacts />} />
+            <Route path="reactjs-routing/posts" element={<Posts />} />
+            <Route path="reactjs-routing/photos" element={<Photos />} />
+            <Route path="reactjs-routing/" exact element={<Home />} />
         </Routes>
     );
 
