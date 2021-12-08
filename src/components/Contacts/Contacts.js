@@ -1,7 +1,6 @@
 import './Contacts.css';
 import CONTACTS_DATA from './Data';
 import Contact from '../Contact/Contact';
-import Nav from '../Nav/Nav';
 import { useState } from 'react';
 
 export default function Contacts() {
@@ -14,7 +13,6 @@ export default function Contacts() {
   
     return (
         <>
-        <Nav />
         <div className="contacts">
             <input 
             className="search-input"

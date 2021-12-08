@@ -1,10 +1,8 @@
 import './Home.css';
-import Nav from '../Nav/Nav';
 
 export default function Home(){
     return(
         <>
-            <Nav />
             <header>
                 <h1>Human mission to Mars</h1>
             </header>

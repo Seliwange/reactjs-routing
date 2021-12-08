@@ -1,10 +1,8 @@
 import './Photos.css';
-import Nav from '../Nav/Nav';
 
 export default function Photos(){
     return(
         <>
-        <Nav />
         <div className="photos">
             <div className="photo">
                 <img src="assets/DSC05013.webp" alt="cristmas" />

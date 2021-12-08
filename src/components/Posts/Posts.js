@@ -1,13 +1,11 @@
 import './Posts.css';
 import Post from '../Post/Post';
 import POSTS_DATA from './Data';
-import Nav from '../Nav/Nav';
 
 export default function Posts(){
 
     return (
         <>
-            <Nav />
             <div className="posts">
                 {
                 POSTS_DATA.map((post) => {
